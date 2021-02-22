@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net50"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net50": {
             "projectReferences": {
               "C:\\Users\\Administrator\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj"
@@ -43,7 +43,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net50": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -84,16 +84,6 @@
               "version": "[2.4.3, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -120,14 +110,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "net50"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "net50": {
             "projectReferences": {}
           }
         },
@@ -138,25 +128,13 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "net50": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[3.1.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.112\\RuntimeIdentifierGraph.json"
         }
       }

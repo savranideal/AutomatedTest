@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z4W7ka0XY7fkS5qBbcZrXYrJ9Zc+T4L+54/c2hCcO1yiFZdy7fiML3+QPztJE25SJCJWnux7GxlLLWlU04R0Rw==",
+  "dgSpecHash": "0xzgbeFvJg8+aDj764zUW1j2/5jxEVcW9TIguXMfIB5xWFhepyIVA9GsO2FvHEXj7+dExszyJL9GiL6CHhQOgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary.Test\\ApplicationLibrary.Test.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nunitxml.testlogger\\3.0.91\\nunitxml.testlogger.3.0.91.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\opencover\\4.7.922\\opencover.4.7.922.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\opencovertocoberturaconverter\\0.3.4\\opencovertocoberturaconverter.0.3.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
