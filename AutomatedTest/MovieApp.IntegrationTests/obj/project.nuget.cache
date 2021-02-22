@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "65d+SakGaqIJxxnb6aFHmwydD6mbgxpvoMGwOVdzi2Y5sUkbK02M5CwkU2v+3Dgq/UD7I9Mlf1VYlDqY/RVmdw==",
+  "dgSpecHash": "I9ihSgLwoEaf/+FjajcWfMP9aNedTmDgxwWW0s0XXg/uU80V0YxQrp7R3kVOnuKKihOiTdpwwk9fM+VoH9nElg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.IntegrationTests\\MovieApp.IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.IntegrationTests\\MovieApp.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\mapster\\7.1.3\\mapster.7.1.3.nupkg.sha512",
@@ -55,6 +55,9 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\ideal.sarvan\\.nuget\\packages\\nunitxml.testlogger\\3.0.91\\nunitxml.testlogger.3.0.91.nupkg.sha512",
+    "C:\\Users\\ideal.sarvan\\.nuget\\packages\\opencover\\4.7.922\\opencover.4.7.922.nupkg.sha512",
+    "C:\\Users\\ideal.sarvan\\.nuget\\packages\\opencovertocoberturaconverter\\0.3.4\\opencovertocoberturaconverter.0.3.4.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

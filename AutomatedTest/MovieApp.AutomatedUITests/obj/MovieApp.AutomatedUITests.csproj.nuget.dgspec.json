@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj": {}
+    "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj": {
+    "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
+        "projectUniqueName": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
         "projectName": "MovieApp.AutomatedUITests",
-        "projectPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
+        "projectPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
         "packagesPath": "C:\\Users\\ideal.sarvan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\obj\\",
+        "outputPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -55,6 +55,18 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.8.3, )"
+            },
+            "NunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[3.0.91, )"
+            },
+            "OpenCover": {
+              "target": "Package",
+              "version": "[4.7.922, )"
+            },
+            "OpenCoverToCoberturaConverter": {
+              "target": "Package",
+              "version": "[0.3.4, )"
             },
             "Selenium.Firefox.WebDriver": {
               "target": "Package",
