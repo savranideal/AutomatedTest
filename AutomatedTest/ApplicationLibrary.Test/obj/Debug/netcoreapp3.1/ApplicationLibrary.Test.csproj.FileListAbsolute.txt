@@ -95,3 +95,9 @@ C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibra
 C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\obj\Debug\netcoreapp3.1\ApplicationLibrary.Test.dll
 C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\obj\Debug\netcoreapp3.1\ApplicationLibrary.Test.pdb
 C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\testhost.exe
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\Spekt.TestLogger.dll
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\obj\Debug\netcoreapp3.1\ApplicationLibrary.Test.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\obj\Debug\netcoreapp3.1\ApplicationLibrary.Test.genruntimeconfig.cache

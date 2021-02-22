@@ -436,6 +436,12 @@
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         }
       },
+      "NunitXml.TestLogger/3.0.91": {
+        "type": "package",
+        "build": {
+          "build/netstandard1.0/NUnitXml.TestLogger.props": {}
+        }
+      },
       "OpenCover/4.7.922": {
         "type": "package"
       },
@@ -2264,6 +2270,23 @@
         "lib/netstandard2.0/NuGet.Frameworks.xml",
         "nuget.frameworks.5.0.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "NunitXml.TestLogger/3.0.91": {
+      "sha512": "iKh/hoOnFKCz+ptCJRnU4KIs9fekK/Cj0lAXBZ3818AGuSVHNSAhgQpB3ur9qc6faYyeTE+awwWSjC8HV8BLww==",
+      "type": "package",
+      "path": "nunitxml.testlogger/3.0.91",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll",
+        "build/_common/Spekt.TestLogger.dll",
+        "build/net45/NUnitXml.TestLogger.props",
+        "build/netstandard1.0/NUnitXml.TestLogger.props",
+        "nunitxml.testlogger.3.0.91.nupkg.sha512",
+        "nunitxml.testlogger.nuspec",
+        "packageIcon.png"
       ]
     },
     "OpenCover/4.7.922": {
@@ -5768,6 +5791,7 @@
     ".NETCoreApp,Version=v3.1": [
       "ApplicationLibrary >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.8.3",
+      "NunitXml.TestLogger >= 3.0.91",
       "OpenCover >= 4.7.922",
       "OpenCoverToCoberturaConverter >= 0.3.4",
       "coverlet.collector >= 3.0.3",
@@ -5824,6 +5848,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.8.3, )"
+          },
+          "NunitXml.TestLogger": {
+            "target": "Package",
+            "version": "[3.0.91, )"
           },
           "OpenCover": {
             "target": "Package",

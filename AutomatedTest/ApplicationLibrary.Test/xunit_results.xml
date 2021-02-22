@@ -1,0 +1,15 @@
+<test-run id="2" duration="0.0044058" testcasecount="4" total="4" passed="4" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-02-22T 11:19:12Z" end-time="2021-02-22T 11:19:13Z">
+  <test-suite type="Assembly" name="ApplicationLibrary.Test.dll" fullname="C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\ApplicationLibrary.Test.dll" total="4" passed="4" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-02-22T 11:19:13Z" end-time="2021-02-22T 11:19:13Z" duration="0.0044058">
+    <test-suite type="TestSuite" name="ApplicationLibrary" fullname="ApplicationLibrary" total="4" passed="4" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-02-22T 11:19:13Z" end-time="2021-02-22T 11:19:13Z" duration="0.0044058">
+      <test-suite type="TestSuite" name="Test" fullname="ApplicationLibrary.Test" total="4" passed="4" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-02-22T 11:19:13Z" end-time="2021-02-22T 11:19:13Z" duration="0.0044058">
+        <test-suite type="TestFixture" name="MovieSuggestionTest" fullname="ApplicationLibrary.Test.MovieSuggestionTest" total="4" passed="4" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-02-22T 11:19:13Z" end-time="2021-02-22T 11:19:13Z" duration="0.0044058">
+          <test-case name="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: True, score: 10)" fullname="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest" methodname="CanSuggest" classname="MovieSuggestionTest" result="Passed" start-time="2021-02-22T 11:19:13Z" end-time="2021-02-22T 11:19:13Z" duration="0.0043472" asserts="0" />
+          <test-case name="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: False, score: 7,99)" fullname="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest" methodname="CanSuggest" classname="MovieSuggestionTest" result="Passed" start-time="2021-02-22T 11:19:13Z" end-time="2021-02-22T 11:19:13Z" duration="4.72E-05" asserts="0" />
+          <test-case name="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: True, score: 8)" fullname="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest" methodname="CanSuggest" classname="MovieSuggestionTest" result="Passed" start-time="2021-02-22T 11:19:13Z" end-time="2021-02-22T 11:19:13Z" duration="6.4E-06" asserts="0" />
+          <test-case name="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: False, score: 0)" fullname="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest" methodname="CanSuggest" classname="MovieSuggestionTest" result="Passed" start-time="2021-02-22T 11:19:13Z" end-time="2021-02-22T 11:19:13Z" duration="5E-06" asserts="0" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>

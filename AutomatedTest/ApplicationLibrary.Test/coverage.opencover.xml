@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="2" numClasses="2" visitedMethods="4" numMethods="4" />
   <Modules>
-    <Module hash="CABB192F-C673-4036-BE97-ADF001A1F385">
+    <Module hash="57E894F9-C282-4C40-A880-871430250FD5">
       <ModulePath>ApplicationLibrary.dll</ModulePath>
-      <ModuleTime>2021-02-22T10:57:54</ModuleTime>
+      <ModuleTime>2021-02-22T11:19:13</ModuleTime>
       <ModuleName>ApplicationLibrary</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\MovieScoreStub.cs" />

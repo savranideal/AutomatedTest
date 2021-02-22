@@ -10,6 +10,7 @@
         "dependencies": {
           "ApplicationLibrary": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.8.3",
+          "NunitXml.TestLogger": "3.0.91",
           "OpenCover": "4.7.922",
           "OpenCoverToCoberturaConverter": "0.3.4",
           "coverlet.collector": "3.0.3",
@@ -402,6 +403,7 @@
           }
         }
       },
+      "NunitXml.TestLogger/3.0.91": {},
       "OpenCover/4.7.922": {},
       "OpenCoverToCoberturaConverter/0.3.4": {},
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -1200,6 +1202,13 @@
       "sha512": "sha512-c5JVjuVAm4f7E9Vj+v09Z9s2ZsqFDjBpcsyS3M9xRo0bEdm/LVZSzLxxNvfvAwRiiE8nwe1h2G4OwiwlzFKXlA==",
       "path": "nuget.frameworks/5.0.0",
       "hashPath": "nuget.frameworks.5.0.0.nupkg.sha512"
+    },
+    "NunitXml.TestLogger/3.0.91": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iKh/hoOnFKCz+ptCJRnU4KIs9fekK/Cj0lAXBZ3818AGuSVHNSAhgQpB3ur9qc6faYyeTE+awwWSjC8HV8BLww==",
+      "path": "nunitxml.testlogger/3.0.91",
+      "hashPath": "nunitxml.testlogger.3.0.91.nupkg.sha512"
     },
     "OpenCover/4.7.922": {
       "type": "package",

@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[16.8.3, )"
             },
+            "NunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[3.0.91, )"
+            },
             "OpenCover": {
               "target": "Package",
               "version": "[4.7.922, )"
