@@ -12,6 +12,9 @@
           "Microsoft.NET.Test.Sdk": "16.8.3",
           "Moq": "4.16.0",
           "MovieApp": "1.0.0",
+          "NunitXml.TestLogger": "3.0.91",
+          "OpenCover": "4.7.922",
+          "OpenCoverToCoberturaConverter": "0.3.4",
           "coverlet.collector": "3.0.3",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
@@ -534,6 +537,9 @@
           }
         }
       },
+      "NunitXml.TestLogger/3.0.91": {},
+      "OpenCover/4.7.922": {},
+      "OpenCoverToCoberturaConverter/0.3.4": {},
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -1529,6 +1535,27 @@
       "sha512": "sha512-c5JVjuVAm4f7E9Vj+v09Z9s2ZsqFDjBpcsyS3M9xRo0bEdm/LVZSzLxxNvfvAwRiiE8nwe1h2G4OwiwlzFKXlA==",
       "path": "nuget.frameworks/5.0.0",
       "hashPath": "nuget.frameworks.5.0.0.nupkg.sha512"
+    },
+    "NunitXml.TestLogger/3.0.91": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iKh/hoOnFKCz+ptCJRnU4KIs9fekK/Cj0lAXBZ3818AGuSVHNSAhgQpB3ur9qc6faYyeTE+awwWSjC8HV8BLww==",
+      "path": "nunitxml.testlogger/3.0.91",
+      "hashPath": "nunitxml.testlogger.3.0.91.nupkg.sha512"
+    },
+    "OpenCover/4.7.922": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mwqq3r8cHj7qazNzWp1K9zmU15amC9bzMvFK83zM4D+ATSN/IOkJGZh6kEvXnTVJjl6LN6U/4QCdRHxulAISuA==",
+      "path": "opencover/4.7.922",
+      "hashPath": "opencover.4.7.922.nupkg.sha512"
+    },
+    "OpenCoverToCoberturaConverter/0.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cy+5LwuMmPKb2WGO74m57SdSzZCC7U+c8blGWGsPcn8fuetkpCsW/TqIHd+MSICZoyXPlOaztr1SExiWKnEp3g==",
+      "path": "opencovertocoberturaconverter/0.3.4",
+      "hashPath": "opencovertocoberturaconverter.0.3.4.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

@@ -23,7 +23,7 @@ namespace MovieManagement.Controllers
         public async Task<IActionResult> Index()
         {
             var movies = await _repo.GetAllAsync();
-            var viewModel=movies.Adapt<IEnumerable<MovieViewModel>>();
+            var viewModel=movies.Adapt<List<MovieViewModel>>();
 
             return View(viewModel);
         }

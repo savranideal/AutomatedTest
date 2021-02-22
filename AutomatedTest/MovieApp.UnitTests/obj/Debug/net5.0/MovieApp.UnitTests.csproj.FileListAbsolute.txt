@@ -117,3 +117,6 @@ C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.UnitTest
 C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.UnitTests\obj\Debug\net5.0\ref\MovieApp.UnitTests.dll
 C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.UnitTests\obj\Debug\net5.0\MovieApp.UnitTests.pdb
 C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.UnitTests\obj\Debug\net5.0\MovieApp.UnitTests.genruntimeconfig.cache
+C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.UnitTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll
+C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.UnitTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll
+C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.UnitTests\bin\Debug\net5.0\Spekt.TestLogger.dll

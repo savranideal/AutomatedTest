@@ -6,6 +6,7 @@ using Moq;
 using MovieManagement.Controllers;
 using MovieManagement.Models;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -43,12 +44,9 @@ namespace MovieApp.UnitTests
 
             var result = await _controller.Index();
 
-            var viewResult = Assert.IsType<ViewResult>(result);
-            var viewModel = movieList.Adapt<IEnumerable<MovieViewModel>>();
-
-            var viewModelResult = Assert.IsType<List<Movie>>(viewResult.Model);
-            Assert.Equal(2, viewModelResult.Count);
-            Assert.IsType(viewModel.GetType(), viewModelResult);
+            var viewResult = Assert.IsType<ViewResult>(result); 
+            var viewModelResult = Assert.IsType<List<MovieViewModel>>(viewResult.Model);
+            Assert.Equal(2, viewModelResult.Count()); 
         }
         /// <summary>
         /// Movie Create Ekranı yüklendi mi
@@ -76,7 +74,7 @@ namespace MovieApp.UnitTests
             var result = await _controller.Create(movieViewModel);
 
             var viewResult = Assert.IsType<ViewResult>(result);
-            var testMovie = Assert.IsType<Movie>(viewResult.Model);
+            var testMovie = Assert.IsType<MovieViewModel>(viewResult.Model);
             Assert.Equal(movieViewModel.ReleasedYear, testMovie.ReleasedYear);
             Assert.Equal(movieViewModel.Director, testMovie.Director);
             Assert.Equal(movieViewModel.ImdbRating, testMovie.ImdbRating);
