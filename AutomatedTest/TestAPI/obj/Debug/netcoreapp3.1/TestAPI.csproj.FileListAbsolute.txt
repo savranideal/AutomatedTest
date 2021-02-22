@@ -1,9 +1,0 @@
-C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\TestAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\TestAPI\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\TestAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.csprojAssemblyReference.cache
-C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\TestAPI\obj\Debug\netcoreapp3.1\staticwebassets\TestAPI.StaticWebAssets.Manifest.cache
-C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\TestAPI\obj\Debug\netcoreapp3.1\staticwebassets\TestAPI.StaticWebAssets.xml
-C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.AssemblyInfoInputs.cache
-C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.AssemblyInfo.cs
-C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.RazorTargetAssemblyInfo.cache

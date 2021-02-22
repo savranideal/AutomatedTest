@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9cd3Oa0hihmG6DxdU2Q6oHIoFKWZM0leFwnVD/yWKGcnI5h/BUMasVvu+DmTqqgIUrqT1FHh8At6d+hTUSSZKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

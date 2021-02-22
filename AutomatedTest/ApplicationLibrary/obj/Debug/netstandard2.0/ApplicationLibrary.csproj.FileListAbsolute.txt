@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\bin\Debug\netstandard2.0\ApplicationLibrary.deps.json
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\bin\Debug\netstandard2.0\ApplicationLibrary.dll
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\bin\Debug\netstandard2.0\ApplicationLibrary.pdb
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\netstandard2.0\ApplicationLibrary.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\netstandard2.0\ApplicationLibrary.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\netstandard2.0\ApplicationLibrary.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\netstandard2.0\ApplicationLibrary.dll
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\netstandard2.0\ApplicationLibrary.pdb
+C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\netstandard2.0\ApplicationLibrary.csproj.CoreCompileInputs.cache
