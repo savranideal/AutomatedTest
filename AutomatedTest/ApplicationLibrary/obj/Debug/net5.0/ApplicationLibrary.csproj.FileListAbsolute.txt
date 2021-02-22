@@ -1,0 +1,12 @@
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\bin\Debug\net5.0\ApplicationLibrary.deps.json
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\bin\Debug\net5.0\ApplicationLibrary.dll
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\bin\Debug\net5.0\ref\ApplicationLibrary.dll
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\bin\Debug\net5.0\ApplicationLibrary.pdb
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\net5.0\ApplicationLibrary.csprojAssemblyReference.cache
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\net5.0\ApplicationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\net5.0\ApplicationLibrary.AssemblyInfoInputs.cache
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\net5.0\ApplicationLibrary.AssemblyInfo.cs
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\net5.0\ApplicationLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\net5.0\ApplicationLibrary.dll
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\net5.0\ref\ApplicationLibrary.dll
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\ApplicationLibrary\obj\Debug\net5.0\ApplicationLibrary.pdb
