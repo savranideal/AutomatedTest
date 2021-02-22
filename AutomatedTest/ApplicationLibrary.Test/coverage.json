@@ -1,0 +1,47 @@
+{
+  "ApplicationLibrary.dll": {
+    "C:\\Users\\Administrator\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\MovieScoreStub.cs": {
+      "ApplicationLibrary.MovieScoreStub": {
+        "System.Double ApplicationLibrary.MovieScoreStub::Score(System.String)": {
+          "Lines": {
+            "13": 4,
+            "14": 4,
+            "15": 4
+          },
+          "Branches": []
+        },
+        "System.Void ApplicationLibrary.MovieScoreStub::.ctor(System.Double)": {
+          "Lines": {
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Administrator\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\MovieSuggestion.cs": {
+      "ApplicationLibrary.MovieSuggestion": {
+        "System.Boolean ApplicationLibrary.MovieSuggestion::IsGoodMovie(System.String)": {
+          "Lines": {
+            "13": 4,
+            "14": 4,
+            "15": 4,
+            "16": 4
+          },
+          "Branches": []
+        },
+        "System.Void ApplicationLibrary.MovieSuggestion::.ctor(ApplicationLibrary.IMovieScore)": {
+          "Lines": {
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 4
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="96d803ab-4d37-468b-aec8-b08c9c3e8ce7" name="Administrator@IDEALSAVRAN 2021-02-22 13:36:10" runUser="IDEALSAVRAN\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-02-22T13:36:10.8397216+03:00" queuing="2021-02-22T13:36:10.8397226+03:00" start="2021-02-22T13:36:09.4515214+03:00" finish="2021-02-22T13:36:10.8461118+03:00" />
+  <TestSettings name="default" id="a9311af6-7401-4d83-92db-49025f6eb5d4">
+    <Deployment runDeploymentRoot="Administrator_IDEALSAVRAN_2021-02-22_13_36_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d330a3b5-6b36-482a-ae8e-1cf3357c2b3f" testId="b9a486d1-061e-9f6d-ee0a-355532a3727f" testName="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: True, score: 10)" computerName="IDEALSAVRAN" duration="00:00:00.0039359" startTime="2021-02-22T13:36:10.7266556+03:00" endTime="2021-02-22T13:36:10.7267530+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d330a3b5-6b36-482a-ae8e-1cf3357c2b3f" />
+    <UnitTestResult executionId="e45d9f52-7d98-4e28-9a09-61369e87809d" testId="61f3806d-1883-a06e-7354-5767cc8d96cd" testName="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: True, score: 8)" computerName="IDEALSAVRAN" duration="00:00:00.0000095" startTime="2021-02-22T13:36:10.7306019+03:00" endTime="2021-02-22T13:36:10.7306021+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e45d9f52-7d98-4e28-9a09-61369e87809d" />
+    <UnitTestResult executionId="b17ce2aa-725c-460f-bba9-ea61ce2cb803" testId="84f4a609-193e-4585-89dc-f877d81bbc64" testName="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: False, score: 7,99)" computerName="IDEALSAVRAN" duration="00:00:00.0000579" startTime="2021-02-22T13:36:10.7305263+03:00" endTime="2021-02-22T13:36:10.7305276+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b17ce2aa-725c-460f-bba9-ea61ce2cb803" />
+    <UnitTestResult executionId="e85c68a9-ad93-4c88-9baf-7507c212eeea" testId="dc891a73-d380-b6ca-6498-3215b3ad0df3" testName="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: False, score: 0)" computerName="IDEALSAVRAN" duration="00:00:00.0000061" startTime="2021-02-22T13:36:10.7306422+03:00" endTime="2021-02-22T13:36:10.7306424+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e85c68a9-ad93-4c88-9baf-7507c212eeea" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: False, score: 7,99)" storage="c:\users\administrator\source\repos\automatedtest\automatedtest\applicationlibrary.test\bin\debug\netcoreapp3.1\applicationlibrary.test.dll" id="84f4a609-193e-4585-89dc-f877d81bbc64">
+      <Execution id="b17ce2aa-725c-460f-bba9-ea61ce2cb803" />
+      <TestMethod codeBase="C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\ApplicationLibrary.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ApplicationLibrary.Test.MovieSuggestionTest" name="CanSuggest" />
+    </UnitTest>
+    <UnitTest name="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: False, score: 0)" storage="c:\users\administrator\source\repos\automatedtest\automatedtest\applicationlibrary.test\bin\debug\netcoreapp3.1\applicationlibrary.test.dll" id="dc891a73-d380-b6ca-6498-3215b3ad0df3">
+      <Execution id="e85c68a9-ad93-4c88-9baf-7507c212eeea" />
+      <TestMethod codeBase="C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\ApplicationLibrary.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ApplicationLibrary.Test.MovieSuggestionTest" name="CanSuggest" />
+    </UnitTest>
+    <UnitTest name="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: True, score: 8)" storage="c:\users\administrator\source\repos\automatedtest\automatedtest\applicationlibrary.test\bin\debug\netcoreapp3.1\applicationlibrary.test.dll" id="61f3806d-1883-a06e-7354-5767cc8d96cd">
+      <Execution id="e45d9f52-7d98-4e28-9a09-61369e87809d" />
+      <TestMethod codeBase="C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\ApplicationLibrary.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ApplicationLibrary.Test.MovieSuggestionTest" name="CanSuggest" />
+    </UnitTest>
+    <UnitTest name="ApplicationLibrary.Test.MovieSuggestionTest.CanSuggest(expected: True, score: 10)" storage="c:\users\administrator\source\repos\automatedtest\automatedtest\applicationlibrary.test\bin\debug\netcoreapp3.1\applicationlibrary.test.dll" id="b9a486d1-061e-9f6d-ee0a-355532a3727f">
+      <Execution id="d330a3b5-6b36-482a-ae8e-1cf3357c2b3f" />
+      <TestMethod codeBase="C:\Users\Administrator\source\repos\AutomatedTest\AutomatedTest\ApplicationLibrary.Test\bin\Debug\netcoreapp3.1\ApplicationLibrary.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ApplicationLibrary.Test.MovieSuggestionTest" name="CanSuggest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b9a486d1-061e-9f6d-ee0a-355532a3727f" executionId="d330a3b5-6b36-482a-ae8e-1cf3357c2b3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61f3806d-1883-a06e-7354-5767cc8d96cd" executionId="e45d9f52-7d98-4e28-9a09-61369e87809d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84f4a609-193e-4585-89dc-f877d81bbc64" executionId="b17ce2aa-725c-460f-bba9-ea61ce2cb803" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc891a73-d380-b6ca-6498-3215b3ad0df3" executionId="e85c68a9-ad93-4c88-9baf-7507c212eeea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Bir Listede Olmayan Sonuçlar" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Yüklenen Tüm Sonuçlar" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 3.1.12)&#xD;
+[xUnit.net 00:00:00.36]   Discovering: ApplicationLibrary.Test&#xD;
+[xUnit.net 00:00:00.41]   Discovered:  ApplicationLibrary.Test&#xD;
+[xUnit.net 00:00:00.41]   Starting:    ApplicationLibrary.Test&#xD;
+[xUnit.net 00:00:00.48]   Finished:    ApplicationLibrary.Test&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -368,6 +368,12 @@
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         }
       },
+      "OpenCover/4.7.922": {
+        "type": "package"
+      },
+      "OpenCoverToCoberturaConverter/0.3.4": {
+        "type": "package"
+      },
       "System.Collections/4.0.11": {
         "type": "package",
         "dependencies": {
@@ -1436,6 +1442,81 @@
         "lib/netstandard2.0/NuGet.Frameworks.xml",
         "nuget.frameworks.5.0.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "OpenCover/4.7.922": {
+      "sha512": "Mwqq3r8cHj7qazNzWp1K9zmU15amC9bzMvFK83zM4D+ATSN/IOkJGZh6kEvXnTVJjl6LN6U/4QCdRHxulAISuA==",
+      "type": "package",
+      "path": "opencover/4.7.922",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.rtf",
+        "MSBuild/OpenCover.MSBuild.dll",
+        "MSBuild/OpenCover.targets",
+        "Samples/x64/OpenCover.Simple.Target.exe",
+        "Samples/x64/OpenCover.Simple.Target.pdb",
+        "Samples/x86/OpenCover.Simple.Target.exe",
+        "Samples/x86/OpenCover.Simple.Target.pdb",
+        "docs/ReleaseNotes.txt",
+        "docs/Usage.rtf",
+        "opencover.4.7.922.nupkg.sha512",
+        "opencover.nuspec",
+        "readme_with_releasenotes.txt",
+        "tools/Autofac.Configuration.dll",
+        "tools/Autofac.dll",
+        "tools/Gendarme.Framework.dll",
+        "tools/Gendarme.Rules.Maintainability.dll",
+        "tools/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/Microsoft.Extensions.Configuration.dll",
+        "tools/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/Microsoft.Extensions.Primitives.dll",
+        "tools/Mono.Cecil.Mdb.dll",
+        "tools/Mono.Cecil.Pdb.dll",
+        "tools/Mono.Cecil.Rocks.dll",
+        "tools/Mono.Cecil.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/OpenCover.Console.exe",
+        "tools/OpenCover.Console.exe.config",
+        "tools/OpenCover.Console.pdb",
+        "tools/OpenCover.Extensions.dll",
+        "tools/OpenCover.Extensions.pdb",
+        "tools/OpenCover.Framework.dll",
+        "tools/OpenCover.Framework.pdb",
+        "tools/SampleSln/SampleSln.zip",
+        "tools/Sentry.PlatformAbstractions.dll",
+        "tools/Sentry.Protocol.dll",
+        "tools/Sentry.dll",
+        "tools/System.Collections.Immutable.dll",
+        "tools/autofac.json",
+        "tools/log4net.config",
+        "tools/log4net.dll",
+        "tools/x64/OpenCover.Profiler.dll",
+        "tools/x86/OpenCover.Profiler.dll",
+        "transform/simple_report.xslt",
+        "transform/transform.ps1"
+      ]
+    },
+    "OpenCoverToCoberturaConverter/0.3.4": {
+      "sha512": "Cy+5LwuMmPKb2WGO74m57SdSzZCC7U+c8blGWGsPcn8fuetkpCsW/TqIHd+MSICZoyXPlOaztr1SExiWKnEp3g==",
+      "type": "package",
+      "path": "opencovertocoberturaconverter/0.3.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "opencovertocoberturaconverter.0.3.4.nupkg.sha512",
+        "opencovertocoberturaconverter.nuspec",
+        "tools/OpenCoverToCoberturaConverter.deps.json",
+        "tools/OpenCoverToCoberturaConverter.dll",
+        "tools/OpenCoverToCoberturaConverter.exe",
+        "tools/OpenCoverToCoberturaConverter.runtimeconfig.json"
       ]
     },
     "System.Collections/4.0.11": {
@@ -3565,6 +3646,8 @@
     ".NETCoreApp,Version=v3.1": [
       "ApplicationLibrary >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "OpenCover >= 4.7.922",
+      "OpenCoverToCoberturaConverter >= 0.3.4",
       "coverlet.collector >= 3.0.3",
       "coverlet.msbuild >= 3.0.3",
       "xunit >= 2.4.0",
@@ -3600,6 +3683,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Users\\Administrator\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj": {
               "projectPath": "C:\\Users\\Administrator\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj"
@@ -3615,10 +3699,19 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.5.0, )"
+          },
+          "OpenCover": {
+            "target": "Package",
+            "version": "[4.7.922, )"
+          },
+          "OpenCoverToCoberturaConverter": {
+            "target": "Package",
+            "version": "[0.3.4, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -3656,7 +3749,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.112\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

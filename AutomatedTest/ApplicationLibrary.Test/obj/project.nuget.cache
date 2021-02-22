@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uf0bXtClrf0UqwIsoJIWM9ucEd2oed40UMbacAmcA5v37ynjWdb3M2TcMC2HdXwdlpOZPLTkAPMyWQ5GOfBlXA==",
+  "dgSpecHash": "o6A0QbSSGFlISSg03WyOH50B4DLeCmLrJ11LeczuqBwChLKJfnHPaCBh2OeeE3IgS4c4uVrAJoQi8eQ6jtVehA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary.Test\\ApplicationLibrary.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
@@ -14,6 +15,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\opencover\\4.7.922\\opencover.4.7.922.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\opencovertocoberturaconverter\\0.3.4\\opencovertocoberturaconverter.0.3.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
