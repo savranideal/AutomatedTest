@@ -664,6 +664,12 @@
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
+      "Selenium.WebDriver.GeckoDriver/0.29.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.GeckoDriver.targets": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2844,6 +2850,24 @@
         "nupkg-icon.png",
         "selenium.webdriver.chromedriver.88.0.4324.9600.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.GeckoDriver/0.29.0": {
+      "sha512": "YzDWdTwD7dYGiniMdM0ltECKggZK/xmavBa/jYET9mapUFG26ML1tlnIWcx+aYnqBaFc+0bk+g9/48trVQW1SQ==",
+      "type": "package",
+      "path": "selenium.webdriver.geckodriver/0.29.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DefinePropertiesGeckoDriver.targets",
+        "build/Selenium.WebDriver.GeckoDriver.targets",
+        "driver/linux64/geckodriver",
+        "driver/mac64/geckodriver",
+        "driver/win32/geckodriver.exe",
+        "driver/win64/geckodriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.geckodriver.0.29.0.nupkg.sha512",
+        "selenium.webdriver.geckodriver.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -6424,6 +6448,7 @@
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
       "Selenium.WebDriver.ChromeDriver >= 88.0.4324.9600",
+      "Selenium.WebDriver.GeckoDriver >= 0.29.0",
       "coverlet.collector >= 3.0.3",
       "coverlet.msbuild >= 3.0.3",
       "xunit >= 2.4.1",
@@ -6513,6 +6538,10 @@
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
             "version": "[88.0.4324.9600, )"
+          },
+          "Selenium.WebDriver.GeckoDriver": {
+            "target": "Package",
+            "version": "[0.29.0, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

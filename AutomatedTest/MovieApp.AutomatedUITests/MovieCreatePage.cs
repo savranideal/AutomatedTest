@@ -5,7 +5,7 @@ namespace MovieApp.AutomatedUITests
     public class MovieCreatePage
     {
         private readonly IWebDriver _driver;
-        private const string URI = "https://localhost:44314/Movies/Create";
+        private const string URI = "https://localhost:5001/Movies/Create";
         public MovieCreatePage(IWebDriver webDriver)
         {
             _driver = webDriver;

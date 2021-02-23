@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XNJvPcBP/whNk264m0ilKIot6dZ3fsTYANYQMX+xUtpk0TcbhoD4jX2wv3lq4jZnNqaVoe4uSa5E6JTYdPv5mQ==",
+  "dgSpecHash": "JkpaNJwk0U2L49/W+nrXRLcm6zWc1i41kkW1qUqYT3U0+y60uPXKxKIU3Dl/pJ0Lm5F+6XJK3D1LUqnZT736lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.IntegrationTests\\MovieApp.IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.IntegrationTests\\MovieApp.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",

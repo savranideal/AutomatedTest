@@ -45,20 +45,19 @@ namespace MovieApp.AutomatedUITests
         [InlineData(_chrome)]
         //[InlineData(_firefox)]
         //[InlineData(_edge)]
-        public void Create_WhenSuccessfullyExecuted_ReturnsIndexViewWithNewEmployee(string browser)
+        public void Create_WhenSuccessfullyExecuted_ReturnsIndexViewWithNewMovie(string browser)
         {
             PrepareDriver(browser);
             _movieCreatePage.PopulateName("New Movie Name");
             _movieCreatePage.PopulateDirector("New Movie Director");
-            _movieCreatePage.PopulateImdbRating(8.3m);
+            _movieCreatePage.PopulateImdbRating(8m);
             _movieCreatePage.PopulateReleasedYear(2021);
             _movieCreatePage.ClickCreate();
 
             Assert.Equal("Index - MovieApp", _movieCreatePage.Title);
             Assert.Contains("New Movie Name", _movieCreatePage.Source);
             Assert.Contains("New Movie Director", _movieCreatePage.Source);
-            Assert.Contains("2021", _movieCreatePage.Source);
-            Assert.Contains("8.3", _movieCreatePage.Source);
+            Assert.Contains("2021", _movieCreatePage.Source); 
         }
 
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ka5TagWoJd2iLQMjR0vINQoBEAU4E1W3AR3vNJS7ZvAr9vpnJI2Mvub2w8e3iMs6K38juCMS89VuPu5zl0D90g==",
+  "dgSpecHash": "ZZhk/EQ6jiufBrHbRLFbWiOSCBhTxJEzFZ+WiS0Pvo+OfP6r+EAtiU0IHMMHrLmIX7pdooRL+slNM7p17iLtNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
+  "projectFilePath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",
@@ -42,6 +42,7 @@
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\selenium.webdriver.chromedriver\\88.0.4324.9600\\selenium.webdriver.chromedriver.88.0.4324.9600.nupkg.sha512",
+    "C:\\Users\\ideal.sarvan\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.29.0\\selenium.webdriver.geckodriver.0.29.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

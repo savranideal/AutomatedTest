@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hADLf0YbrN9sPQNZjxFAyPiO/Dsl+utpMqgaDrmwQd5cddZpnSReD0nXEmEoLTMOEUZkheqr6F3025bE7psBhA==",
+  "dgSpecHash": "XpuS9OXsSqkSJM7PlI+MUFzjr5LLCTGtVDT8Kelv3HEii/owW8+SZG3R7l/BIYDeDJiwOPF5knEmpR79XjPzSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary.Test\\ApplicationLibrary.Test.csproj",
+  "projectFilePath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary.Test\\ApplicationLibrary.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",

@@ -30,7 +30,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApplicationLibrary\ApplicationLibrary.csproj" />
-    <ProjectReference Include="..\MovieManagement\MovieApp.csproj" />
+    <ProjectReference Include="..\MovieApp\MovieApp.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj": {}
+    "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj": {
+    "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
+        "projectUniqueName": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
         "projectName": "MovieApp.AutomatedUITests",
-        "projectPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
+        "projectPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
         "packagesPath": "C:\\Users\\ideal.sarvan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\obj\\",
+        "outputPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -83,6 +83,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[88.0.4324.9600, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.29.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

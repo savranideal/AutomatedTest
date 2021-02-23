@@ -6992,8 +6992,8 @@
     },
     "MovieApp/1.0.0": {
       "type": "project",
-      "path": "../MovieManagement/MovieApp.csproj",
-      "msbuildProject": "../MovieManagement/MovieApp.csproj"
+      "path": "../MovieApp/MovieApp.csproj",
+      "msbuildProject": "../MovieApp/MovieApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7018,11 +7018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\MovieApp.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\MovieApp.UnitTests.csproj",
       "projectName": "MovieApp.UnitTests",
-      "projectPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\MovieApp.UnitTests.csproj",
+      "projectPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\MovieApp.UnitTests.csproj",
       "packagesPath": "C:\\Users\\ideal.sarvan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7043,11 +7043,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj": {
-              "projectPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj"
+            "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj": {
+              "projectPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj"
             },
-            "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieManagement\\MovieApp.csproj": {
-              "projectPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieManagement\\MovieApp.csproj"
+            "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp\\MovieApp.csproj": {
+              "projectPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp\\MovieApp.csproj"
             }
           }
         }

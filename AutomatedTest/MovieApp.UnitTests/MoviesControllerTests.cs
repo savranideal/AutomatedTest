@@ -3,8 +3,8 @@ using ApplicationLibrary.Domain;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using MovieManagement.Controllers;
-using MovieManagement.Models;
+using MovieApp.Controllers;
+using MovieApp.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -23,9 +23,7 @@ namespace MovieApp.UnitTests
             _controller = new MoviesController(_mockRepo.Object);
         }
 
-       /// <summary>
-       /// Movie Index yüklendi mi?
-       /// </summary>
+        
         [Fact]
         public async Task Index_ActionExecutes_ReturnsViewForIndex()
         {

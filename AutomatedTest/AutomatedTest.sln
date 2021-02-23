@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationLibrary", "Appli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationLibrary.Test", "ApplicationLibrary.Test\ApplicationLibrary.Test.csproj", "{F660BDE2-14B2-4880-9960-41769F40B579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp", "MovieManagement\MovieApp.csproj", "{F8D98E2D-85DC-4E56-A6C5-5D1285A6DC70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp", "MovieApp\MovieApp.csproj", "{F8D98E2D-85DC-4E56-A6C5-5D1285A6DC70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.UnitTests", "MovieApp.UnitTests\MovieApp.UnitTests.csproj", "{EF644102-510E-4F30-A224-18369F8ED468}"
 EndProject

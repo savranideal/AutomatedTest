@@ -4,14 +4,14 @@
     "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieManagement\\MovieApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj": {
+    "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj",
         "projectName": "ApplicationLibrary",
-        "projectPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj",
+        "projectPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\ApplicationLibrary.csproj",
         "packagesPath": "C:\\Users\\ideal.sarvan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\obj\\",
+        "outputPath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\ApplicationLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

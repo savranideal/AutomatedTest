@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vRDvj3YPxzTJEUkqGQEGOt3Wr3d0DvUZO+WDH0nz9hS+DcO+NmslNrldv0SNdnEAfLHbIWi5FtIYYZmOKHXPzQ==",
+  "dgSpecHash": "qaZf9FoomihENXCrSjx9xlJUhms9UDVSBS2/z0gNPlYrr9CP9JTTZPKJCcfB+77L976iL7/qrRLe0PpoAxexUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\MovieApp.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\MovieApp.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",

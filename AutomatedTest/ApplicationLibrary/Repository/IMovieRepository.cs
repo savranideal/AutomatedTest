@@ -9,6 +9,6 @@ namespace ApplicationLibrary
     {
         Task<IEnumerable<Movie>> GetAllAsync();
         Task<Movie> GetMovieAsync(Guid id);
-        Task CreateMovieAsync(Movie employee);
+        Task CreateMovieAsync(Movie movie);
     }
 }

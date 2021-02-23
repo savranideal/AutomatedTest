@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using MovieManagement;
 using System;
 using System.Linq;
 
@@ -30,7 +29,7 @@ namespace MovieApp.IntegrationTests
 
                 services.AddDbContext<ApplicationContext>(options =>
                 {
-                    options.UseInMemoryDatabase("InMemoryEmployeeTest");
+                    options.UseInMemoryDatabase("InMemoryMoviesTest");
                     options.UseInternalServiceProvider(serviceProvider);
                 });
 
