@@ -3,6 +3,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using System;
+using System.Threading;
 using Xunit;
 
 namespace MovieApp.AutomatedUITests
@@ -53,8 +54,8 @@ namespace MovieApp.AutomatedUITests
             _movieCreatePage.PopulateImdbRating(8m);
             _movieCreatePage.PopulateReleasedYear(2021);
             _movieCreatePage.ClickCreate();
-
-            Assert.Equal("Index - MovieApp", _movieCreatePage.Title);
+            Thread.Sleep(1000);
+            Assert.Equal("Index - MoviesApp", _movieCreatePage.Title);
             Assert.Contains("New Movie Name", _movieCreatePage.Source);
             Assert.Contains("New Movie Director", _movieCreatePage.Source);
             Assert.Contains("2021", _movieCreatePage.Source); 

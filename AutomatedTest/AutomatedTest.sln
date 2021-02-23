@@ -5,15 +5,13 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationLibrary", "ApplicationLibrary\ApplicationLibrary.csproj", "{0FAE4B53-73D4-4089-8DB1-5A5694F80BBB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationLibrary.Test", "ApplicationLibrary.Test\ApplicationLibrary.Test.csproj", "{F660BDE2-14B2-4880-9960-41769F40B579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp", "MovieApp\MovieApp.csproj", "{F8D98E2D-85DC-4E56-A6C5-5D1285A6DC70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp", "MovieApp\MovieApp.csproj", "{F8D98E2D-85DC-4E56-A6C5-5D1285A6DC70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.UnitTests", "MovieApp.UnitTests\MovieApp.UnitTests.csproj", "{EF644102-510E-4F30-A224-18369F8ED468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.UnitTests", "MovieApp.UnitTests\MovieApp.UnitTests.csproj", "{EF644102-510E-4F30-A224-18369F8ED468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.IntegrationTests", "MovieApp.IntegrationTests\MovieApp.IntegrationTests.csproj", "{2BBB11D2-3B6F-4A3F-8CDA-F25468CC224F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.IntegrationTests", "MovieApp.IntegrationTests\MovieApp.IntegrationTests.csproj", "{2BBB11D2-3B6F-4A3F-8CDA-F25468CC224F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.AutomatedUITests", "MovieApp.AutomatedUITests\MovieApp.AutomatedUITests.csproj", "{2F79CDE3-B6AB-4735-B3CA-F669ED19EE2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.AutomatedUITests", "MovieApp.AutomatedUITests\MovieApp.AutomatedUITests.csproj", "{2F79CDE3-B6AB-4735-B3CA-F669ED19EE2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{0FAE4B53-73D4-4089-8DB1-5A5694F80BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FAE4B53-73D4-4089-8DB1-5A5694F80BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FAE4B53-73D4-4089-8DB1-5A5694F80BBB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F660BDE2-14B2-4880-9960-41769F40B579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F660BDE2-14B2-4880-9960-41769F40B579}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F660BDE2-14B2-4880-9960-41769F40B579}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F660BDE2-14B2-4880-9960-41769F40B579}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8D98E2D-85DC-4E56-A6C5-5D1285A6DC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8D98E2D-85DC-4E56-A6C5-5D1285A6DC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8D98E2D-85DC-4E56-A6C5-5D1285A6DC70}.Release|Any CPU.ActiveCfg = Release|Any CPU

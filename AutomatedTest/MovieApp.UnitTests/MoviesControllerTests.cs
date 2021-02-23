@@ -46,10 +46,7 @@ namespace MovieApp.UnitTests
             var viewModelResult = Assert.IsType<List<MovieViewModel>>(viewResult.Model);
             Assert.Equal(2, viewModelResult.Count()); 
         }
-        /// <summary>
-        /// Movie Create Ekranı yüklendi mi
-        /// </summary>
-        /// <returns></returns>
+       
         [Fact]
         public async Task Create_ActionExecutes_ReturnsViewForCreate()
         {
