@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xPX7o5I79aOk5pgKJ0T2ERrs5U/r2yPTe4dwAXdhC2XCBv8o2+L9PZbjZqzy/THjMkpOxvVUUB4VjAaV01FJvg==",
+  "dgSpecHash": "Ka5TagWoJd2iLQMjR0vINQoBEAU4E1W3AR3vNJS7ZvAr9vpnJI2Mvub2w8e3iMs6K38juCMS89VuPu5zl0D90g==",
   "success": true,
   "projectFilePath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.AutomatedUITests\\MovieApp.AutomatedUITests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
+    "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\dotnetseleniumextras.pageobjects.core\\3.12.0\\dotnetseleniumextras.pageobjects.core.3.12.0.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",

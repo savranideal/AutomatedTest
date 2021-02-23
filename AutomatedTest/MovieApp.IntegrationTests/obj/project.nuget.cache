@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "I9ihSgLwoEaf/+FjajcWfMP9aNedTmDgxwWW0s0XXg/uU80V0YxQrp7R3kVOnuKKihOiTdpwwk9fM+VoH9nElg==",
+  "dgSpecHash": "XNJvPcBP/whNk264m0ilKIot6dZ3fsTYANYQMX+xUtpk0TcbhoD4jX2wv3lq4jZnNqaVoe4uSa5E6JTYdPv5mQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.IntegrationTests\\MovieApp.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
+    "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\mapster\\7.1.3\\mapster.7.1.3.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\mapster.core\\1.1.2\\mapster.core.1.1.2.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\5.0.3\\microsoft.aspnetcore.mvc.testing.5.0.3.nupkg.sha512",

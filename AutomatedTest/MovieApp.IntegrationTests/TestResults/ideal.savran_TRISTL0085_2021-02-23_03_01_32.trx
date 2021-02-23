@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0665c2a0-e339-47ee-b677-2eb8eeeb9b90" name="ideal.savran@TRISTL0085 2021-02-23 03:01:32" runUser="TRDOMAIN\ideal.savran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-02-23T03:01:32.9673835+03:00" queuing="2021-02-23T03:01:32.9673836+03:00" start="2021-02-23T03:01:19.4609382+03:00" finish="2021-02-23T03:01:33.9571046+03:00" />
+  <TestSettings name="default" id="9e3623f6-2444-43b0-9363-19489e27d9cb">
+    <Deployment runDeploymentRoot="ideal.savran_TRISTL0085_2021-02-23_03_01_32" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f79b267e-0032-4502-9983-1e3ebc6c9f82" testId="d1f1983a-775a-7aff-8848-f1e62f7cbe85" testName="MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_SentWrongModel_ReturnsViewWithErrorMessages" computerName="TRISTL0085" duration="00:00:00.0295865" startTime="2021-02-23T03:01:33.6813809+03:00" endTime="2021-02-23T03:01:33.6813821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f79b267e-0032-4502-9983-1e3ebc6c9f82">
+      <Output>
+        <ErrorInfo>
+          <Message>System.Net.Http.HttpRequestException : Response status code does not indicate success: 500 (Internal Server Error).</Message>
+          <StackTrace>   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()&#xD;
+   at MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_SentWrongModel_ReturnsViewWithErrorMessages() in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\MoviesController.cs:line 67&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d320b26d-db59-4e26-bf5f-808db508d4bc" testId="84b5942f-75d4-c4ef-ecd2-343d076667df" testName="MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_WhenCalled_ReturnsCreateForm" computerName="TRISTL0085" duration="00:00:00.0827288" startTime="2021-02-23T03:01:32.7199831+03:00" endTime="2021-02-23T03:01:32.7199844+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d320b26d-db59-4e26-bf5f-808db508d4bc" />
+    <UnitTestResult executionId="f112fbda-69a7-4b45-82ec-8a1a0333aa44" testId="2b7fbd5c-1616-759b-3b75-674aa3e6d499" testName="MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Index_WhenCalled_ReturnsApplicationForm" computerName="TRISTL0085" duration="00:00:00.9344688" startTime="2021-02-23T03:01:33.6497508+03:00" endTime="2021-02-23T03:01:33.6497521+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f112fbda-69a7-4b45-82ec-8a1a0333aa44" />
+    <UnitTestResult executionId="a6607fbd-7dda-42f1-9476-4b852a8ce5b0" testId="faa0656b-655b-132f-d9c8-e5c3fd93c81a" testName="MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_WhenPOSTExecuted_ReturnsToIndexView" computerName="TRISTL0085" duration="00:00:03.4760174" startTime="2021-02-23T03:01:32.6355942+03:00" endTime="2021-02-23T03:01:32.6357244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6607fbd-7dda-42f1-9476-4b852a8ce5b0">
+      <Output>
+        <ErrorInfo>
+          <Message>System.Net.Http.HttpRequestException : Response status code does not indicate success: 500 (Internal Server Error).</Message>
+          <StackTrace>   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()&#xD;
+   at MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_WhenPOSTExecuted_ReturnsToIndexView() in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\MoviesController.cs:line 94&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_SentWrongModel_ReturnsViewWithErrorMessages" storage="c:\users\ideal.sarvan\source\repos\automatedtest\automatedtest\movieapp.integrationtests\bin\debug\net5.0\movieapp.integrationtests.dll" id="d1f1983a-775a-7aff-8848-f1e62f7cbe85">
+      <Execution id="f79b267e-0032-4502-9983-1e3ebc6c9f82" />
+      <TestMethod codeBase="C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\bin\Debug\net5.0\MovieApp.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MovieApp.IntegrationTests.MoviesControllerIntegrationTests" name="Create_SentWrongModel_ReturnsViewWithErrorMessages" />
+    </UnitTest>
+    <UnitTest name="MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_WhenPOSTExecuted_ReturnsToIndexView" storage="c:\users\ideal.sarvan\source\repos\automatedtest\automatedtest\movieapp.integrationtests\bin\debug\net5.0\movieapp.integrationtests.dll" id="faa0656b-655b-132f-d9c8-e5c3fd93c81a">
+      <Execution id="a6607fbd-7dda-42f1-9476-4b852a8ce5b0" />
+      <TestMethod codeBase="C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\bin\Debug\net5.0\MovieApp.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MovieApp.IntegrationTests.MoviesControllerIntegrationTests" name="Create_WhenPOSTExecuted_ReturnsToIndexView" />
+    </UnitTest>
+    <UnitTest name="MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Index_WhenCalled_ReturnsApplicationForm" storage="c:\users\ideal.sarvan\source\repos\automatedtest\automatedtest\movieapp.integrationtests\bin\debug\net5.0\movieapp.integrationtests.dll" id="2b7fbd5c-1616-759b-3b75-674aa3e6d499">
+      <Execution id="f112fbda-69a7-4b45-82ec-8a1a0333aa44" />
+      <TestMethod codeBase="C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\bin\Debug\net5.0\MovieApp.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MovieApp.IntegrationTests.MoviesControllerIntegrationTests" name="Index_WhenCalled_ReturnsApplicationForm" />
+    </UnitTest>
+    <UnitTest name="MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_WhenCalled_ReturnsCreateForm" storage="c:\users\ideal.sarvan\source\repos\automatedtest\automatedtest\movieapp.integrationtests\bin\debug\net5.0\movieapp.integrationtests.dll" id="84b5942f-75d4-c4ef-ecd2-343d076667df">
+      <Execution id="d320b26d-db59-4e26-bf5f-808db508d4bc" />
+      <TestMethod codeBase="C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\bin\Debug\net5.0\MovieApp.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MovieApp.IntegrationTests.MoviesControllerIntegrationTests" name="Create_WhenCalled_ReturnsCreateForm" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d1f1983a-775a-7aff-8848-f1e62f7cbe85" executionId="f79b267e-0032-4502-9983-1e3ebc6c9f82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84b5942f-75d4-c4ef-ecd2-343d076667df" executionId="d320b26d-db59-4e26-bf5f-808db508d4bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b7fbd5c-1616-759b-3b75-674aa3e6d499" executionId="f112fbda-69a7-4b45-82ec-8a1a0333aa44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="faa0656b-655b-132f-d9c8-e5c3fd93c81a" executionId="a6607fbd-7dda-42f1-9476-4b852a8ce5b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="2" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.02] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.2)&#xD;
+[xUnit.net 00:00:04.50]   Discovering: MovieApp.IntegrationTests&#xD;
+[xUnit.net 00:00:04.59]   Discovered:  MovieApp.IntegrationTests&#xD;
+[xUnit.net 00:00:04.60]   Starting:    MovieApp.IntegrationTests&#xD;
+[xUnit.net 00:00:08.63]       System.Net.Http.HttpRequestException : Response status code does not indicate success: 500 (Internal Server Error).&#xD;
+[xUnit.net 00:00:08.63]       Stack Trace:&#xD;
+[xUnit.net 00:00:08.64]            at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()&#xD;
+[xUnit.net 00:00:08.64]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\MoviesController.cs(94,0): at MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_WhenPOSTExecuted_ReturnsToIndexView()&#xD;
+[xUnit.net 00:00:08.64]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:09.69]       System.Net.Http.HttpRequestException : Response status code does not indicate success: 500 (Internal Server Error).&#xD;
+[xUnit.net 00:00:09.69]       Stack Trace:&#xD;
+[xUnit.net 00:00:09.69]            at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()&#xD;
+[xUnit.net 00:00:09.69]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\MoviesController.cs(67,0): at MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_SentWrongModel_ReturnsViewWithErrorMessages()&#xD;
+[xUnit.net 00:00:09.69]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:09.73]   Finished:    MovieApp.IntegrationTests&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="TRISTL0085" outcome="Error" timestamp="2021-02-23T03:01:32.6176540+03:00">
+        <Text>[xUnit.net 00:00:08.63]     MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_WhenPOSTExecuted_ReturnsToIndexView [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="TRISTL0085" outcome="Error" timestamp="2021-02-23T03:01:33.6809296+03:00">
+        <Text>[xUnit.net 00:00:09.69]     MovieApp.IntegrationTests.MoviesControllerIntegrationTests.Create_SentWrongModel_ReturnsViewWithErrorMessages [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

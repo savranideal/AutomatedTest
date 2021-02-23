@@ -399,3 +399,6 @@ C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.Integrat
 C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\obj\Debug\net5.0\ref\MovieApp.IntegrationTests.dll
 C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\obj\Debug\net5.0\MovieApp.IntegrationTests.pdb
 C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\obj\Debug\net5.0\MovieApp.IntegrationTests.genruntimeconfig.cache
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.IntegrationTests\bin\Debug\net5.0\Spekt.TestLogger.dll

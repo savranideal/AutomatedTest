@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "31cFY/U7lhckKHTKrBdQuFnE2v6650Mni7gD13dt2XqBnNHcT5yYhGrTZYA8m348ZCsKrnhQtRF4AnbYtU3+aA==",
+  "dgSpecHash": "vRDvj3YPxzTJEUkqGQEGOt3Wr3d0DvUZO+WDH0nz9hS+DcO+NmslNrldv0SNdnEAfLHbIWi5FtIYYZmOKHXPzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ideal.sarvan\\source\\repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\MovieApp.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\ideal.sarvan\\Source\\Repos\\AutomatedTest\\AutomatedTest\\MovieApp.UnitTests\\MovieApp.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
+    "C:\\Users\\ideal.sarvan\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\mapster\\7.1.3\\mapster.7.1.3.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\mapster.core\\1.1.2\\mapster.core.1.1.2.nupkg.sha512",
     "C:\\Users\\ideal.sarvan\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",

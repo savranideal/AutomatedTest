@@ -102,3 +102,6 @@ C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.Automate
 C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\bin\Debug\net5.0\SeleniumExtras.PageObjects.dll
 C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\bin\Debug\net5.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\bin\Debug\net5.0\WebDriver.Support.dll
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll
+C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\bin\Debug\net5.0\Spekt.TestLogger.dll

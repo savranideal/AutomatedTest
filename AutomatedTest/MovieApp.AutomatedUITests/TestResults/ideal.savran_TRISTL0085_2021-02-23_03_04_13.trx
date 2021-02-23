@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="38ee472b-fb06-4d56-b9f2-91b3c4b6c153" name="ideal.savran@TRISTL0085 2021-02-23 03:04:13" runUser="TRDOMAIN\ideal.savran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-02-23T03:04:13.6615589+03:00" queuing="2021-02-23T03:04:13.6615589+03:00" start="2021-02-23T03:03:49.9798671+03:00" finish="2021-02-23T03:04:34.0535190+03:00" />
+  <TestSettings name="default" id="9838c838-1760-4602-8277-c6e01bb24568">
+    <Deployment runDeploymentRoot="ideal.savran_TRISTL0085_2021-02-23_03_04_13" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a6ffd595-797b-4e26-bb07-f23e1dcc13f3" testId="cdfb19bc-0275-5902-6219-1177b23d7717" testName="MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenSuccessfullyExecuted_ReturnsIndexViewWithNewEmployee(browser: &quot;chrome&quot;)" computerName="TRISTL0085" duration="00:00:10.1897090" startTime="2021-02-23T03:04:33.8306693+03:00" endTime="2021-02-23T03:04:33.8306707+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6ffd595-797b-4e26-bb07-f23e1dcc13f3">
+      <Output>
+        <ErrorInfo>
+          <Message>OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=88.0.4324.182)</Message>
+          <StackTrace>   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)&#xD;
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)&#xD;
+   at MovieApp.AutomatedUITests.MovieCreatePage.Navigate() in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieCreatePage.cs:line 31&#xD;
+   at MovieApp.AutomatedUITests.MovieAutomatedUITests.PrepareDriver(String browser) in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs:line 83&#xD;
+   at MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenSuccessfullyExecuted_ReturnsIndexViewWithNewEmployee(String browser) in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs:line 50</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b6770a61-f4ea-45a8-93fc-bdae4fc9421c" testId="52499c20-82b9-4e4b-d1d3-54b02cb9ac0e" testName="MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WrongModelData_ReturnsErrorMessage(browser: &quot;chrome&quot;)" computerName="TRISTL0085" duration="00:00:17.1928631" startTime="2021-02-23T03:04:13.5660787+03:00" endTime="2021-02-23T03:04:13.5662171+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6770a61-f4ea-45a8-93fc-bdae4fc9421c">
+      <Output>
+        <ErrorInfo>
+          <Message>OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=88.0.4324.182)</Message>
+          <StackTrace>   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)&#xD;
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)&#xD;
+   at MovieApp.AutomatedUITests.MovieCreatePage.Navigate() in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieCreatePage.cs:line 31&#xD;
+   at MovieApp.AutomatedUITests.MovieAutomatedUITests.PrepareDriver(String browser) in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs:line 83&#xD;
+   at MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WrongModelData_ReturnsErrorMessage(String browser) in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs:line 36</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9160b465-1087-4b4d-8b89-946c59938a0c" testId="985a528f-6155-6ead-849b-c7053a5a9530" testName="MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenExecuted_ReturnsCreateView(browser: &quot;chrome&quot;)" computerName="TRISTL0085" duration="00:00:10.0871020" startTime="2021-02-23T03:04:23.6404999+03:00" endTime="2021-02-23T03:04:23.6405014+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9160b465-1087-4b4d-8b89-946c59938a0c">
+      <Output>
+        <ErrorInfo>
+          <Message>OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=88.0.4324.182)</Message>
+          <StackTrace>   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)&#xD;
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)&#xD;
+   at MovieApp.AutomatedUITests.MovieCreatePage.Navigate() in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieCreatePage.cs:line 31&#xD;
+   at MovieApp.AutomatedUITests.MovieAutomatedUITests.PrepareDriver(String browser) in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs:line 83&#xD;
+   at MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenExecuted_ReturnsCreateView(String browser) in C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs:line 25</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenSuccessfullyExecuted_ReturnsIndexViewWithNewEmployee(browser: &quot;chrome&quot;)" storage="c:\users\ideal.sarvan\source\repos\automatedtest\automatedtest\movieapp.automateduitests\bin\debug\net5.0\movieapp.automateduitests.dll" id="cdfb19bc-0275-5902-6219-1177b23d7717">
+      <Execution id="a6ffd595-797b-4e26-bb07-f23e1dcc13f3" />
+      <TestMethod codeBase="C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\bin\Debug\net5.0\MovieApp.AutomatedUITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MovieApp.AutomatedUITests.MovieAutomatedUITests" name="Create_WhenSuccessfullyExecuted_ReturnsIndexViewWithNewEmployee" />
+    </UnitTest>
+    <UnitTest name="MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WrongModelData_ReturnsErrorMessage(browser: &quot;chrome&quot;)" storage="c:\users\ideal.sarvan\source\repos\automatedtest\automatedtest\movieapp.automateduitests\bin\debug\net5.0\movieapp.automateduitests.dll" id="52499c20-82b9-4e4b-d1d3-54b02cb9ac0e">
+      <Execution id="b6770a61-f4ea-45a8-93fc-bdae4fc9421c" />
+      <TestMethod codeBase="C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\bin\Debug\net5.0\MovieApp.AutomatedUITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MovieApp.AutomatedUITests.MovieAutomatedUITests" name="Create_WrongModelData_ReturnsErrorMessage" />
+    </UnitTest>
+    <UnitTest name="MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenExecuted_ReturnsCreateView(browser: &quot;chrome&quot;)" storage="c:\users\ideal.sarvan\source\repos\automatedtest\automatedtest\movieapp.automateduitests\bin\debug\net5.0\movieapp.automateduitests.dll" id="985a528f-6155-6ead-849b-c7053a5a9530">
+      <Execution id="9160b465-1087-4b4d-8b89-946c59938a0c" />
+      <TestMethod codeBase="C:\Users\ideal.sarvan\source\repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\bin\Debug\net5.0\MovieApp.AutomatedUITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MovieApp.AutomatedUITests.MovieAutomatedUITests" name="Create_WhenExecuted_ReturnsCreateView" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="cdfb19bc-0275-5902-6219-1177b23d7717" executionId="a6ffd595-797b-4e26-bb07-f23e1dcc13f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52499c20-82b9-4e4b-d1d3-54b02cb9ac0e" executionId="b6770a61-f4ea-45a8-93fc-bdae4fc9421c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="985a528f-6155-6ead-849b-c7053a5a9530" executionId="9160b465-1087-4b4d-8b89-946c59938a0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="0" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.2)&#xD;
+[xUnit.net 00:00:02.59]   Discovering: MovieApp.AutomatedUITests&#xD;
+[xUnit.net 00:00:02.75]   Discovered:  MovieApp.AutomatedUITests&#xD;
+[xUnit.net 00:00:02.75]   Starting:    MovieApp.AutomatedUITests&#xD;
+[xUnit.net 00:00:20.16]       OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=88.0.4324.182)&#xD;
+[xUnit.net 00:00:20.16]       Stack Trace:&#xD;
+[xUnit.net 00:00:20.16]            at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+[xUnit.net 00:00:20.17]            at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+[xUnit.net 00:00:20.17]            at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)&#xD;
+[xUnit.net 00:00:20.17]            at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)&#xD;
+[xUnit.net 00:00:20.17]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieCreatePage.cs(31,0): at MovieApp.AutomatedUITests.MovieCreatePage.Navigate()&#xD;
+[xUnit.net 00:00:20.17]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs(83,0): at MovieApp.AutomatedUITests.MovieAutomatedUITests.PrepareDriver(String browser)&#xD;
+[xUnit.net 00:00:20.17]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs(36,0): at MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WrongModelData_ReturnsErrorMessage(String browser)&#xD;
+[xUnit.net 00:00:30.24]       OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=88.0.4324.182)&#xD;
+[xUnit.net 00:00:30.24]       Stack Trace:&#xD;
+[xUnit.net 00:00:30.24]            at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+[xUnit.net 00:00:30.24]            at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+[xUnit.net 00:00:30.24]            at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)&#xD;
+[xUnit.net 00:00:30.24]            at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)&#xD;
+[xUnit.net 00:00:30.24]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieCreatePage.cs(31,0): at MovieApp.AutomatedUITests.MovieCreatePage.Navigate()&#xD;
+[xUnit.net 00:00:30.24]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs(83,0): at MovieApp.AutomatedUITests.MovieAutomatedUITests.PrepareDriver(String browser)&#xD;
+[xUnit.net 00:00:30.24]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs(25,0): at MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenExecuted_ReturnsCreateView(String browser)&#xD;
+[xUnit.net 00:00:40.43]       OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=88.0.4324.182)&#xD;
+[xUnit.net 00:00:40.43]       Stack Trace:&#xD;
+[xUnit.net 00:00:40.43]            at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+[xUnit.net 00:00:40.43]            at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+[xUnit.net 00:00:40.43]            at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)&#xD;
+[xUnit.net 00:00:40.43]            at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)&#xD;
+[xUnit.net 00:00:40.43]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieCreatePage.cs(31,0): at MovieApp.AutomatedUITests.MovieCreatePage.Navigate()&#xD;
+[xUnit.net 00:00:40.43]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs(83,0): at MovieApp.AutomatedUITests.MovieAutomatedUITests.PrepareDriver(String browser)&#xD;
+[xUnit.net 00:00:40.43]         C:\Users\ideal.sarvan\Source\Repos\AutomatedTest\AutomatedTest\MovieApp.AutomatedUITests\MovieAutomatedUITests.cs(50,0): at MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenSuccessfullyExecuted_ReturnsIndexViewWithNewEmployee(String browser)&#xD;
+[xUnit.net 00:00:40.45]   Finished:    MovieApp.AutomatedUITests&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="TRISTL0085" outcome="Error" timestamp="2021-02-23T03:04:13.5577950+03:00">
+        <Text>[xUnit.net 00:00:20.16]     MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WrongModelData_ReturnsErrorMessage(browser: "chrome") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="TRISTL0085" outcome="Error" timestamp="2021-02-23T03:04:23.6398584+03:00">
+        <Text>[xUnit.net 00:00:30.24]     MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenExecuted_ReturnsCreateView(browser: "chrome") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="TRISTL0085" outcome="Error" timestamp="2021-02-23T03:04:33.8304732+03:00">
+        <Text>[xUnit.net 00:00:40.43]     MovieApp.AutomatedUITests.MovieAutomatedUITests.Create_WhenSuccessfullyExecuted_ReturnsIndexViewWithNewEmployee(browser: "chrome") [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
